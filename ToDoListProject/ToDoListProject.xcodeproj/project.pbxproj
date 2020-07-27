@@ -15,6 +15,7 @@
 		185538EA24CF425F0024C735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185538E824CF425F0024C735 /* LaunchScreen.storyboard */; };
 		185538F524CF425F0024C735 /* ToDoListProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185538F424CF425F0024C735 /* ToDoListProjectTests.swift */; };
 		1855390024CF425F0024C735 /* ToDoListProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185538FF24CF425F0024C735 /* ToDoListProjectUITests.swift */; };
+		1855391024CF4D790024C735 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855390F24CF4D790024C735 /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		185538FB24CF425F0024C735 /* ToDoListProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185538FF24CF425F0024C735 /* ToDoListProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListProjectUITests.swift; sourceTree = "<group>"; };
 		1855390124CF425F0024C735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1855390F24CF4D790024C735 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				185538E824CF425F0024C735 /* LaunchScreen.storyboard */,
 				185538EB24CF425F0024C735 /* Info.plist */,
 				185538E324CF425A0024C735 /* ToDoListProject.xcdatamodeld */,
+				1855390F24CF4D790024C735 /* ToDoTableViewController.swift */,
 			);
 			path = ToDoListProject;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185538E524CF425A0024C735 /* ToDoListProject.xcdatamodeld in Sources */,
+				1855391024CF4D790024C735 /* ToDoTableViewController.swift in Sources */,
 				185538DB24CF425A0024C735 /* AppDelegate.swift in Sources */,
 				185538DD24CF425A0024C735 /* SceneDelegate.swift in Sources */,
 			);
